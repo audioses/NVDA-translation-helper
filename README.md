@@ -34,12 +34,18 @@ If you have Python and want to run the script directly or modify it:
 
 1. **Prerequisites:** Make sure you have Python 3 installed.
 2. **Clone the Repository:**
-   git clone [https://github.com/audioses/NVDA-translation-helper.git](https://github.com/audioses/NVDA-translation-helper.git)
-   cd NVDA-translation-helper
+    ```sh
+    git clone https://github.com/audioses/NVDA-translation-helper.git
+    cd NVDA-translation-helper
+    ```
 3. **Install Dependencies:** Open a command prompt or terminal in the project folder and run:
-   pip install -r requirements.txt
+    ```sh
+    pip install -r requirements.txt
+    ```
 4. **Run the Application:**
-   python main.py
+    ```sh
+    python main.py
+    ```
 
 ---
 
@@ -47,7 +53,7 @@ If you have Python and want to run the script directly or modify it:
 
 If you're running from source, the only required Python package is:
 
-* wxPython
+* `wxPython`
 
 ---
 
@@ -56,9 +62,13 @@ If you're running from source, the only required Python package is:
 If you've made changes to the code, you can easily package it into a single `.exe` file yourself.
 
 1. **Install PyInstaller:**
-   pip install pyinstaller
+    ```sh
+    pip install pyinstaller
+    ```
 2. **Build the Executable:** In your terminal, run the following command from the project directory:
-   pyinstaller build.spec
+    ```sh
+    pyinstaller build.spec
+    ```
 3. The final `NVDA Translation Helper.exe` file will be located in the `dist` folder that PyInstaller creates.
 
 ---
@@ -82,4 +92,4 @@ All done!
 
 ## Thanks
 
-I built this tool because I found it tiring to go through the command line all the time. I prefer using GUIs, and I hope this app is useful for you too!!
+I built this tool because I found it tiring to go through the command line all the time. I prefer using guis, and I hope this app is useful for you too!
